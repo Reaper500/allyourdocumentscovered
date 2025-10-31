@@ -89,7 +89,7 @@ const Index = () => {
   };
 
   const handleEmailClick = () => {
-    window.location.href = "mailto:holding165@outlook.com?subject=Document Editing Inquiry";
+    window.location.href = "mailto:enquiry@allyourdocumentscovered.com?subject=Document Editing Inquiry";
   };
 
   return (
@@ -348,7 +348,7 @@ const Index = () => {
                     href="mailto:holding165@outlook.com"
                     className="text-xl md:text-2xl text-primary hover:text-primary-glow transition-colors font-semibold"
                   >
-                    holding165@outlook.com
+                    enquiry@allyourdocumentscovered.com
                   </a>
                 </div>
 
