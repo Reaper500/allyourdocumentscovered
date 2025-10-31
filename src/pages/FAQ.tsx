@@ -124,7 +124,7 @@ const FAQ = () => {
               </span>
             </h1>
             <p className="text-xl text-muted-foreground">
-              Find answers to common questions about our document editing services
+              Find answers to common questions about our document editing services including fake documents, fake license, genuine documents, and registered documents
             </p>
           </div>
         </div>

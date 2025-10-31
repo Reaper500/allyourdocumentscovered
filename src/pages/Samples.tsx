@@ -12,7 +12,7 @@ const Samples = () => {
   const sampleCategories = [
     {
       title: "Bank Statements",
-      description: "Professional bank statement editing services for all major UK banks",
+      description: "Professional bank statement editing services including fake documents, genuine documents, and registered documents for all major UK banks",
       images: [
         { src: bankStatement1, alt: "Bank statement sample showing detailed transaction history" },
         { src: bankStatement2, alt: "Bank statement sample with account summary" },
@@ -21,7 +21,7 @@ const Samples = () => {
     },
     {
       title: "Payslips & Wage Documents",
-      description: "Accurate payslip and wage documentation editing",
+      description: "Accurate payslip and wage documentation editing. We provide fake documents and genuine documents that look authentic",
       images: [
         { src: payslipPrsi, alt: "PAYE-PRSI certificate payslip sample" },
       ]
@@ -55,7 +55,7 @@ const Samples = () => {
               Document <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Samples</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Please be aware that the following samples below are in a low quality format and that the final documents you purchase will be of a much higher quality. If you'd like to see a sample before purchasing then please feel free to email us.
+              Please be aware that the following samples below are in a low quality format and that the final documents you purchase will be of a much higher quality. We create fake documents, fake license, genuine documents, and registered documents. If you'd like to see a sample before purchasing then please feel free to email us.
             </p>
           </div>
         </div>

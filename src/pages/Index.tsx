@@ -11,27 +11,27 @@ const Index = () => {
   const services = [
     {
       title: "Bank Statements Editing",
-      description: "Professional editing of bank statements with attention to detail and accuracy. We ensure all modifications meet your specific requirements.",
+      description: "Professional editing of bank statements with attention to detail and accuracy. We create genuine-looking documents and registered documents that meet your specific requirements for research purposes.",
       icon: FileText,
     },
     {
       title: "Payslips Edition",
-      description: "Comprehensive payslip editing services tailored to your needs. Quick turnaround with precision and confidentiality guaranteed.",
+      description: "Comprehensive payslip editing services tailored to your needs. We provide fake documents and genuine documents that look authentic, with quick turnaround and confidentiality guaranteed.",
       icon: FileText,
     },
     {
       title: "Business Accounts",
-      description: "Expert handling of business account documentation. We provide meticulous editing services for all your business financial documents.",
+      description: "Expert handling of business account documentation. We create registered documents and genuine documents that look authentic, with meticulous editing services for all your business financial documents.",
       icon: Shield,
     },
     {
       title: "ID Editing",
-      description: "Specialized ID document editing services with high-quality results. We handle all types of identification documents professionally.",
+      description: "Specialized ID document editing services including fake documents and genuine documents. High-quality results with professional handling of all types of identification documents.",
       icon: Shield,
     },
     {
       title: "Drivers License Editing",
-      description: "Professional drivers license editing with precise attention to detail. Fast delivery without compromising on quality.",
+      description: "Professional drivers license editing including fake license creation and genuine documents. Precise attention to detail with fast delivery without compromising on quality.",
       icon: Clock,
     },
   ];
@@ -117,7 +117,7 @@ const Index = () => {
                 Services
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Fast, reliable, and confidential document editing for all your needs
+                Fast, reliable, and confidential document editing for all your needs. We specialize in fake documents, fake license, genuine documents, and registered documents for research and design purposes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
@@ -187,7 +187,7 @@ const Index = () => {
               Our Services
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              We cater for all documents with professional expertise and attention to detail
+              We cater for all documents including fake documents, fake license, genuine documents, and registered documents with professional expertise and attention to detail
             </p>
           </div>
 
@@ -221,7 +221,7 @@ const Index = () => {
               Documents We Handle
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Professional editing for all types of financial and identity documents
+              Professional editing for all types of financial and identity documents. We create fake documents, fake license, genuine documents, and registered documents that meet your research and design needs.
             </p>
           </div>
 
@@ -282,7 +282,7 @@ const Index = () => {
                 And Many More...
               </h3>
               <p className="text-lg text-muted-foreground mb-6">
-                Bank statements, ID documents, drivers licenses, and all other financial documentation
+                Bank statements, ID documents, drivers licenses, fake documents, fake license, genuine documents, registered documents, and all other financial documentation
               </p>
               <Button
                 onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
@@ -308,7 +308,7 @@ const Index = () => {
                   We are a <span className="font-semibold text-primary">UK-based company</span> specializing in professional document editing services with meticulous attention to detail.
                 </p>
                 <p className="leading-relaxed">
-                  We cater for <span className="font-semibold text-primary">all documents</span> with professional expertise, from bank statements and payslips to ID documents and business accounts.
+                  We cater for <span className="font-semibold text-primary">all documents</span> with professional expertise, from bank statements and payslips to ID documents and business accounts. Our services include fake documents, fake license, genuine documents, and registered documents for research and design purposes.
                 </p>
                 <p className="leading-relaxed">
                   Send an inquiry via <span className="font-semibold text-primary">email or WhatsApp</span> and we'll send you a quote for the job within hours.
@@ -405,7 +405,7 @@ const Index = () => {
             </div>
             
             <p className="text-center text-muted-foreground max-w-md">
-              Professional document editing services with fast turnaround and confidential handling.
+              Professional document editing services including fake documents, fake license, genuine documents, and registered documents. Fast turnaround with confidential handling.
             </p>
 
             <div className="h-px bg-border w-full max-w-md"></div>
