@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { FileText, Menu, X, Moon, Sun } from "lucide-react";
+import { Menu, X, Moon, Sun } from "lucide-react";
 import { useTheme } from "next-themes";
 
 const Navigation = () => {
@@ -38,9 +38,13 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="bg-gradient-to-br from-primary to-primary-glow p-2 rounded-lg transition-transform group-hover:scale-110">
-              <FileText className="w-6 h-6 text-primary-foreground" />
+          <Link to="/" className="flex items-center gap-3 group">
+            <div className="transition-transform group-hover:scale-110 flex items-center justify-center">
+              <img 
+                src="/favicon.ico.jpg" 
+                alt="Logo" 
+                className="w-10 h-10 md:w-12 md:h-12 object-contain rounded-lg"
+              />
             </div>
             <span className="text-lg md:text-xl font-bold text-foreground">
               DocuPro

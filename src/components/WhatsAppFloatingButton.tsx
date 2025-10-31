@@ -1,4 +1,4 @@
-import { MessageCircle } from "lucide-react";
+import whatappImage from "@/assets/whatapp.png";
 
 const WhatsAppFloatingButton = () => {
   const handleWhatsAppClick = () => {
@@ -31,13 +31,19 @@ const WhatsAppFloatingButton = () => {
   return (
     <button
       onClick={handleWhatsAppClick}
-      className="fixed bottom-6 right-6 z-50 bg-gradient-to-r from-green-800 to-green-900 text-white rounded-full p-4 shadow-[var(--shadow-accent)] hover:shadow-[var(--shadow-hover)] transition-all hover:scale-110 group animate-fade-in"
+      className="fixed bottom-6 right-6 z-50 rounded-full p-0 shadow-[var(--shadow-accent)] hover:shadow-[var(--shadow-hover)] transition-all hover:scale-110 group animate-fade-in overflow-hidden"
       aria-label="Contact us on WhatsApp"
     >
-      <MessageCircle className="w-6 h-6 transition-transform group-hover:rotate-12" />
-      <span className="absolute -top-1 -right-1 flex h-3 w-3">
+      <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center">
+        <img 
+          src={whatappImage} 
+          alt="WhatsApp" 
+          className="w-full h-full object-cover rounded-full transition-transform group-hover:rotate-12"
+        />
+      </div>
+      <span className="absolute -top-1 -right-1 flex h-4 w-4">
         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent opacity-75"></span>
-        <span className="relative inline-flex rounded-full h-3 w-3 bg-accent"></span>
+        <span className="relative inline-flex rounded-full h-4 w-4 bg-accent"></span>
       </span>
     </button>
   );
