@@ -345,7 +345,7 @@ const Index = () => {
                   </div>
                   <p className="text-muted-foreground font-medium">Email:</p>
                   <a
-                    href="mailto:holding165@outlook.com"
+                    href="mailto:enquiry@allyourdocumentscovered.com"
                     className="text-xl md:text-2xl text-primary hover:text-primary-glow transition-colors font-semibold"
                   >
                     enquiry@allyourdocumentscovered.com
