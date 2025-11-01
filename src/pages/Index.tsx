@@ -117,7 +117,7 @@ const Index = () => {
                 Services
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Fast, reliable, and confidential document editing for all your needs. We specialize in bank statements, business accounts, fake documents, fake license, genuine documents, and registered documents for research and design purposes.
+                Fast, reliable, and confidential document editing for all your needs. We specialize in bank statements, business accounts, fake documents, fake license, and genuine documents for research and design purposes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
