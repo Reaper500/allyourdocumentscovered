@@ -117,7 +117,7 @@ const Index = () => {
                 Services
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Fast, reliable, and confidential document editing for all your needs. We specialize in fake documents, fake license, genuine documents, and registered documents for research and design purposes.
+                Fast, reliable, and confidential document editing for all your needs. We specialize in bank statements, business accounts, fake documents, fake license, genuine documents, and registered documents for research and design purposes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
@@ -127,6 +127,15 @@ const Index = () => {
                 >
                   <MessageCircle className="mr-2 h-5 w-5 transition-transform group-hover:scale-110" />
                   WhatsApp Now
+                </Button>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  onClick={handleEmailClick}
+                  className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all hover:-translate-y-1 group text-lg px-8 py-6"
+                >
+                  <Mail className="mr-2 h-5 w-5 transition-transform group-hover:scale-110" />
+                  enquiry@allyourdocumentscovered.com
                 </Button>
                 <Button
                   size="lg"
