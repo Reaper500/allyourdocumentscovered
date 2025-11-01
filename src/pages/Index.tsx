@@ -401,7 +401,7 @@ const Index = () => {
               <div className="bg-gradient-to-br from-primary to-primary-glow p-2 rounded-lg">
                 <FileText className="w-6 h-6 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold text-foreground">DocuPro</span>
+              <span className="text-xl font-bold text-foreground">All Your Documents Covered</span>
             </div>
             
             <p className="text-center text-muted-foreground max-w-md">
@@ -415,7 +415,7 @@ const Index = () => {
             </p>
 
             <p className="text-center text-sm text-muted-foreground">
-              © 2025 DocuPro. All rights reserved.
+              © 2025 All Your Documents Covered. All rights reserved.
             </p>
           </div>
         </div>

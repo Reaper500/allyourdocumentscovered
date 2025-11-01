@@ -47,7 +47,7 @@ const Navigation = () => {
               />
             </div>
             <span className="text-lg md:text-xl font-bold text-foreground">
-              DocuPro
+              All Your Documents Covered
             </span>
           </Link>
 

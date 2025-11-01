@@ -250,7 +250,7 @@ const Branding = () => {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-border bg-muted/30">
         <div className="container mx-auto text-center text-muted-foreground">
-          <p>&copy; 2024 DocuPro. All rights reserved.</p>
+          <p>&copy; 2025 All Your Documents Covered. All rights reserved.</p>
         </div>
       </footer>
     </div>
