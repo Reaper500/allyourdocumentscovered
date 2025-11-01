@@ -132,10 +132,11 @@ const Index = () => {
                   size="lg"
                   variant="outline"
                   onClick={handleEmailClick}
-                  className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all hover:-translate-y-1 group text-lg px-8 py-6"
+                  className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all hover:-translate-y-1 group text-sm sm:text-lg px-4 sm:px-8 py-4 sm:py-6"
                 >
-                  <Mail className="mr-2 h-5 w-5 transition-transform group-hover:scale-110" />
-                  enquiry@allyourdocumentscovered.com
+                  <Mail className="mr-2 h-5 w-5 transition-transform group-hover:scale-110 flex-shrink-0" />
+                  <span className="hidden sm:inline">enquiry@allyourdocumentscovered.com</span>
+                  <span className="sm:hidden">Email Us</span>
                 </Button>
                 <Button
                   size="lg"
