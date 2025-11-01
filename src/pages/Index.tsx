@@ -321,7 +321,7 @@ const Index = () => {
                   We cater for <span className="font-semibold text-primary">all documents</span> with professional expertise, from bank statements and payslips to ID documents and business accounts. Our services include fake documents, fake license, genuine documents, and registered documents for research and design purposes.
                 </p>
                 <p className="leading-relaxed">
-                  Send an inquiry via <span className="font-semibold text-primary">email or WhatsApp</span> and we'll send you a quote for the job within hours.
+                  Send an inquiry via <span className="font-semibold text-primary">email or WhatsApp</span> and we'll send you a quote for the job immediately.
                 </p>
                 <div className="pt-6">
                   <div className="inline-block bg-gradient-to-r from-primary/10 to-primary-glow/10 rounded-2xl px-8 py-4 border-2 border-primary/20">
