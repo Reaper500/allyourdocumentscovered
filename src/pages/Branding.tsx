@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import DisclaimerBanner from "@/components/DisclaimerBanner";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Sparkles, Palette, Lightbulb, Zap } from "lucide-react";
@@ -22,10 +23,11 @@ const Branding = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <DisclaimerBanner />
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 px-4 overflow-hidden">
+      <section className="relative pt-36 md:pt-40 pb-20 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-primary-glow/5 to-transparent" />
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in">

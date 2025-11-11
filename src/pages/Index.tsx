@@ -2,6 +2,7 @@ import { Mail, MessageCircle, FileText, Shield, Clock, CheckCircle, Star, Buildi
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Navigation from "@/components/Navigation";
+import DisclaimerBanner from "@/components/DisclaimerBanner";
 import banksStorefront from "@/assets/banks-storefront.jpg";
 import bankScotlandBusiness from "@/assets/bank-scotland-business.jpg";
 import payslipExample from "@/assets/payslip-example.jpg";
@@ -94,12 +95,13 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <DisclaimerBanner />
       <Navigation />
 
       {/* Hero Section */}
       <section
         id="hero"
-        className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden"
+        className="relative min-h-screen flex items-center justify-center pt-36 md:pt-40 overflow-hidden"
       >
         <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-primary-glow/5 to-transparent"></div>
         <div className="absolute top-20 right-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl animate-float"></div>

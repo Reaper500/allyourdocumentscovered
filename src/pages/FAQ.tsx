@@ -1,4 +1,5 @@
 import Navigation from "@/components/Navigation";
+import DisclaimerBanner from "@/components/DisclaimerBanner";
 import { useEffect, useState } from "react";
 import {
   Accordion,
@@ -111,10 +112,11 @@ const FAQ = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <DisclaimerBanner />
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-16 bg-gradient-to-br from-primary/10 via-primary-glow/5 to-transparent">
+      <section className="pt-36 md:pt-40 pb-16 bg-gradient-to-br from-primary/10 via-primary-glow/5 to-transparent">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6">
