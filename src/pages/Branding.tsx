@@ -27,7 +27,7 @@ const Branding = () => {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative pt-36 md:pt-40 pb-20 px-4 overflow-hidden">
+      <section className="relative pt-32 md:pt-36 pb-20 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-primary-glow/5 to-transparent" />
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in">

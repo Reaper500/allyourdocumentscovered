@@ -130,3 +130,21 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* Disclaimer Banner Styles */
+.disclaimer-text {
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-height: 42px;
+}
+
+@media (min-width: 768px) {
+  .disclaimer-text {
+    -webkit-line-clamp: unset;
+    max-height: none;
+    line-height: 1.5;
+  }
+}
