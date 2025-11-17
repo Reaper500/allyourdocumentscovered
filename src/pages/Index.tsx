@@ -112,10 +112,11 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center">
             <div className="animate-fade-in-up">
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-                Need to fix layout issues, spelling mistakes, or formatting in your PDF files?
+               Need to fix layout issues, change text, spelling mistakes, or formatting in your PDF files?
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-                Our team helps you make your documents look clean, consistent, and professional — without changing your original content. We specialize in improving readability, correcting typos, adjusting page structure, and converting between file formats.
+                Our team helps you make your documents look clean, consistent, and professional . We specialize in improving readability, correcting typos, adjusting page structure, and converting between file formats.
+                change or edit text to both pdf and hard copy
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
